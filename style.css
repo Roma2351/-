@@ -1,0 +1,269 @@
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header {
+    padding: 20px 15px 20px 15px;
+}
+.header__logo {
+    max-height: 120px;
+    margin: 5px;
+}
+.header__menu{
+    display: flex;
+    justify-content: end
+}
+
+.header__menu a {
+    
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    color: rgb(228, 203, 94);
+}
+.header__menu :hover {
+    color: #2980b9;
+}
+.header__menu__links-divider{
+    padding: 5px;
+    font-size: 30px;
+}
+body{
+    background: url(https://funart.pro/uploads/posts/2021-04/1618421402_63-funart_pro-p-oboi-fon-temnii-fon-63.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    /* max-width: 1200px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    color: beige;
+}
+.section-advantages__link {
+    color: #e68415;
+    
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.section-main__image{
+  width: 650px;
+
+}
+ul { 
+    list-style: none; 
+}
+.section-advantages__list-item:nth-child(1)::before{
+    content: "1";
+    content: counter(1);
+    display: inline-block;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e68415;
+    color: #4b4b4b;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin: 5px;
+    
+}
+.section-advantages__list-item:nth-child(2)::before{
+    content: "2";
+    content: counter(2);
+    display: inline-block;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e68415;
+    color: #4b4b4b;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin: 5px;
+
+}
+.section-advantages__list-item:nth-child(3)::before{
+    content: "3";
+    content: counter(3);
+    display: inline-block;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e68415;
+    color: #4b4b4b;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin: 5px;
+}
+.section-advantages__list-item:nth-child(4)::before{
+    content: "4";
+    content: counter(4);
+    display: inline-block;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e68415;
+    color: #4b4b4b;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin: 5px;
+}
+.section-advantages__anotherlist-item:nth-child(1)::before{
+
+    content: "\1F5F8";
+    content: counter(1);
+    display: inline-block;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e68415;
+    color: #4b4b4b;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin: 5px;
+}
+.section-advantages__anotherlist-item:nth-child(2)::before{
+    
+    content: "\1F5F8";
+    content: counter(2);
+    display: inline-block;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e68415;
+    color: #4b4b4b;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin: 5px;
+}
+.section-advantages__anotherlist-item:nth-child(3)::before{
+    
+    content: "\1F5F8";
+    content: counter(3);
+    display: inline-block;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e68415;
+    color: #4b4b4b;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin: 5px;
+}
+.section-advantages__anotherlist-item:nth-child(4)::before{
+    
+    content: "\1F5F8";
+    content: counter(4);
+    display: inline-block;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e68415;
+    color: #4b4b4b;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin: 5px;
+
+}
+.section-advantages__anotherlist-item:nth-child(5)::before{
+    
+    content: "\1F5F8";
+    content: counter(5);
+    display: inline-block;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e68415;
+    color: #4b4b4b;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin: 5px;
+
+}
+.section-advantages__anotherlist-item:nth-child(6)::before{
+    
+    content: "\1F5F8";
+    content: counter(6);
+    display: inline-block;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e68415;
+    color: #4b4b4b;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin: 5px;
+}
+.topbtn {
+    
+    color: #56571c;
+  
+  }
+  
+  .topbtn:hover {
+    background: #2980b9;
+  }
+  .container {
+      max-width: 1200px;
+      margin: 0px auto;
+      padding: 0px 15px ;
+  }
+  @media (max-width: 1200px) {
+      .container {
+          max-width: 970px;
+      }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+   @media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+}
+@media  (min-width: 650px){
+.section-main__image {
+        max-width: none;
+}
+}
+    
